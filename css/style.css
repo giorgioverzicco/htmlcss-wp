@@ -9,7 +9,7 @@
 .container {
   max-width: 1440px;
   margin: auto;
-  padding: 20px;
+  padding: 5px 20px;
 }
 
 .clearfix::after {
@@ -51,6 +51,30 @@
 /* Header */
 header {
   margin-bottom: 20px;
+}
+
+.logo {
+  height: 50px;
+}
+
+nav {
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-right: 10px;
+  color: #8b8b8b;
+}
+
+nav a:visited {
+  color: #8b8b8b;
 }
 
 /* Main */
