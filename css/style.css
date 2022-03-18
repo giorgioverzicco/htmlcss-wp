@@ -33,34 +33,12 @@
   color: #999999;
 }
 
-/* Debug */
-.debug header {
-  background-color: #e579e6;
-  min-height: 100px;
-}
-
-.debug .hero {
-  background-color: #e1d67a;
-  min-height: 600px;
-}
-
-.debug .leadership {
-  background-color: #0086ff;
-}
-
-.debug .leadership-title {
-  background-color: #abcfe7;
-  min-height: 100px;
-}
-
-.debug .col {
-  background-color: #abcfe7;
-  min-height: 500px;
-}
-
-.debug footer {
-  background-color: #8801fe;
-  min-height: 80px;
+.bg-relative {
+  position: relative;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 /* Header */
@@ -94,16 +72,10 @@ nav a:visited {
 
 /* Main */
 .hero {
-  position: relative;
-  width: 100%;
-  min-height: 600px;
+  height: 600px;
   margin-bottom: 20px;
   border-radius: 10px;
-
   background-image: url('../img/banner.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 .hero .motto {
@@ -138,13 +110,7 @@ nav a:visited {
 }
 
 .col-img-container {
-  position: relative;
-  width: 100%;
   height: 250px;
-
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 .col-content h3 {
