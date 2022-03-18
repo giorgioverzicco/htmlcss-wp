@@ -114,6 +114,18 @@ nav a:visited {
   width: 50%;
 }
 
+.leadership-title {
+  margin-top: 40px;
+}
+
+.leadership-title h2 {
+  font-size: 31px;
+}
+
+.leadership-title p {
+  color: #999999;
+}
+
 .leadership .columns {
   padding: 15px 0;
 }
