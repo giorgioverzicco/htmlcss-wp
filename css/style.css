@@ -29,6 +29,10 @@
   background: rgba(0, 0, 0, 0.25);
 }
 
+.grey-text {
+  color: #999999;
+}
+
 /* Debug */
 .debug header {
   background-color: #e579e6;
@@ -117,27 +121,39 @@ nav a:visited {
 }
 
 .leadership-title {
-  margin-top: 40px;
+  padding: 20px 0;
 }
 
 .leadership-title h2 {
   font-size: 31px;
 }
 
-.leadership-title p {
-  color: #999999;
-}
-
-.leadership .columns {
+.columns {
   padding: 15px 0;
 }
 
-.leadership .col {
+.col {
   float: left;
   width: 20%;
 }
 
-.leadership .col.col-big {
+.col-img-container {
+  position: relative;
+  width: 100%;
+  height: 250px;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.col-content h3 {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-weight: normal;
+}
+
+.col.col-big {
   width: calc(60% - 30px);
   margin: auto 15px;
 }
@@ -145,4 +161,17 @@ nav a:visited {
 /* Footer */
 footer {
   margin-top: 20px;
+}
+
+/* IDs */
+#left-col-img {
+  background-image: url('../img/img-1.jpg');
+}
+
+#big-col-img {
+  background-image: url('../img/banner-2.jpg');
+}
+
+#right-col-img {
+  background-image: url('../img/img-3.jpg');
 }
