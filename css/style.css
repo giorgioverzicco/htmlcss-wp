@@ -103,7 +103,9 @@ nav a:visited {
 }
 
 .hero .motto {
+  position: relative;
   padding: 400px 0 50px 50px;
+  color: white;
 }
 
 .hero h1 {
