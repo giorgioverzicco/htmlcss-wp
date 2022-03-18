@@ -160,7 +160,14 @@ nav a:visited {
 
 /* Footer */
 footer {
-  margin-top: 20px;
+  margin: 20px 0;
+  text-align: center;
+}
+
+footer span::after {
+  content: '\2665';
+  color: red;
+  font-size: 21px;
 }
 
 /* IDs */
