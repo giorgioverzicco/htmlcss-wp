@@ -85,6 +85,7 @@ nav a:visited {
 }
 
 .hero h1 {
+  font-weight: normal;
   width: 60%;
 }
 
